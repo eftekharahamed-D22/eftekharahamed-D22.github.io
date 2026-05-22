@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Eftekhar's Blog</title>
+    <meta name="color-scheme" content="light only">
+    <title>Contact — Eftekhar's Blog</title>
     <meta name="description" content="Get in touch with Eftekhar. Send a message, share thoughts, or just say hello.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
     <header class="header">
         <div class="container">
             <a href="index.html" class="logo">Eftekhar's Blog</a>
@@ -19,16 +27,14 @@
         </div>
     </header>
 
-    <div class="container">
+    <main class="container">
         <section class="page-hero">
-            <span class="tagline" style="color: var(--accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 3px; font-weight: 600; font-family: -apple-system, sans-serif;">Let's Talk</span>
-            <h1>Get in Touch</h1>
+            <span class="tagline">Let's Talk</span>
+            <h1>Get in <span class="gradient-text">Touch</span></h1>
             <p>Have a question, a story, or just want to say hello? I'd love to hear from you.</p>
         </section>
 
-        <main class="contact-content">
-            <p class="contact-intro">Every great conversation starts with a single message. Don't be a stranger 🌿</p>
-
+        <section class="contact-wrap">
             <form class="contact-form" action="mailto:eftekharahamed@gmail.com" method="post" enctype="text/plain">
                 <div class="form-group">
                     <label for="name">Your Name</label>
@@ -55,34 +61,35 @@
 
             <div class="contact-info">
                 <div class="contact-card">
-                    <span class="icon">📧</span>
-                    <h3>Email</h3>
+                    <div class="icon-wrap">✉</div>
+                    <h3>Email Me</h3>
                     <p><a href="mailto:eftekharahamed@gmail.com">eftekharahamed@gmail.com</a></p>
                 </div>
 
                 <div class="contact-card">
-                    <span class="icon">🌐</span>
-                    <h3>Website</h3>
-                    <p><a href="index.html">eftekharahamed-d22.github.io</a></p>
+                    <div class="icon-wrap">⏱</div>
+                    <h3>Response Time</h3>
+                    <p>Usually within 1-2 days. Sometimes faster ☕</p>
                 </div>
 
                 <div class="contact-card">
-                    <span class="icon">💬</span>
-                    <h3>Response Time</h3>
-                    <p>Usually within 1-2 days</p>
+                    <div class="icon-wrap">💬</div>
+                    <h3>What to Say?</h3>
+                    <p>Anything — questions, ideas, feedback, or just a hello.</p>
                 </div>
             </div>
-        </main>
-    </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
+            <div class="footer-logo">Eftekhar's Blog</div>
             <div class="footer-links">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
             </div>
-            <p>&copy; 2026 Eftekhar's Blog · Grown with care 🌿</p>
+            <p>&copy; 2026 Eftekhar's Blog · Made with care</p>
         </div>
     </footer>
 </body>

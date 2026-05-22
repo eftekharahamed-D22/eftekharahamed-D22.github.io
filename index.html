@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eftekhar's Blog - Thoughts on Life, Tech & Nature</title>
-    <meta name="description" content="A personal blog by Eftekhar Ahamed. Thoughts on life, technology, SEO, and everything in between. Grow with me.">
+    <meta name="color-scheme" content="light only">
+    <title>Eftekhar's Blog — Stories worth growing into</title>
+    <meta name="description" content="A personal blog by Eftekhar Ahamed. Thoughts on life, technology, SEO, and everything in between.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
     <header class="header">
         <div class="container">
             <a href="index.html" class="logo">Eftekhar's Blog</a>
@@ -19,29 +27,36 @@
         </div>
     </header>
 
-    <div class="container">
+    <main class="container">
         <section class="hero">
-            <span class="leaf-deco">🌱</span>
-            <span class="tagline">Welcome</span>
-            <h1>Stories worth growing into</h1>
+            <span class="float-deco deco-1">✨</span>
+            <span class="float-deco deco-2">💫</span>
+            <span class="float-deco deco-3">🌟</span>
+
+            <span class="tagline">Welcome to my corner</span>
+            <h1>Stories worth<br><span class="gradient-text">growing into</span></h1>
             <p>A little corner of the internet where ideas bloom — thoughts on life, tech, SEO, and the things that grow between.</p>
-            <a href="#posts" class="btn">Start Reading</a>
+            <div class="cta-group">
+                <a href="#posts" class="btn btn-primary">Start Reading →</a>
+                <a href="about.html" class="btn btn-secondary">About Me</a>
+            </div>
         </section>
 
-        <main>
+        <section id="posts">
             <div class="section-title">
-                <h2>Latest Stories</h2>
-                <p>Fresh thoughts, carefully cultivated</p>
+                <span class="label">Latest Stories</span>
+                <h2>Fresh thoughts, carefully cultivated</h2>
+                <p>New ideas, written from the heart, served with care.</p>
             </div>
 
-            <section class="posts" id="posts">
+            <div class="posts-grid">
                 <article class="post-card">
                     <div class="post-meta-top">
                         <span class="post-date">May 22, 2026</span>
                         <span class="post-tag tag-life">Life</span>
                     </div>
-                    <h2><a href="posts/hello-world.html">Hello World — My First Blog Post</a></h2>
-                    <p>Welcome to my blog! This is where I'll be sharing my thoughts, experiences, and the things I learn along the way. A small beginning to what I hope becomes something meaningful.</p>
+                    <h3><a href="posts/hello-world.html">Hello World — My First Blog Post</a></h3>
+                    <p>Welcome to my blog! This is where I'll be sharing my thoughts, experiences, and the things I learn along the way.</p>
                     <a href="posts/hello-world.html" class="read-more">Read more →</a>
                 </article>
 
@@ -50,8 +65,8 @@
                         <span class="post-date">May 22, 2026</span>
                         <span class="post-tag tag-tech">Tech</span>
                     </div>
-                    <h2><a href="posts/getting-started-with-coding.html">Getting Started with Coding in 2026</a></h2>
-                    <p>A beginner-friendly guide to starting your coding journey. What languages to learn, what tools to use, and how to stay motivated when the path gets tangled.</p>
+                    <h3><a href="posts/getting-started-with-coding.html">Getting Started with Coding in 2026</a></h3>
+                    <p>A beginner-friendly guide to starting your coding journey. What languages to learn, what tools to use, and how to stay motivated.</p>
                     <a href="posts/getting-started-with-coding.html" class="read-more">Read more →</a>
                 </article>
 
@@ -60,22 +75,23 @@
                         <span class="post-date">May 22, 2026</span>
                         <span class="post-tag tag-seo">SEO</span>
                     </div>
-                    <h2><a href="posts/seo-basics.html">SEO Basics Everyone Should Know</a></h2>
-                    <p>Search Engine Optimization doesn't have to be complicated. Here are the fundamentals — the roots, if you will — that every website owner should understand.</p>
+                    <h3><a href="posts/seo-basics.html">SEO Basics Everyone Should Know</a></h3>
+                    <p>Search Engine Optimization doesn't have to be complicated. The fundamentals every website owner should understand.</p>
                     <a href="posts/seo-basics.html" class="read-more">Read more →</a>
                 </article>
-            </section>
-        </main>
-    </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
+            <div class="footer-logo">Eftekhar's Blog</div>
             <div class="footer-links">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
             </div>
-            <p>&copy; 2026 Eftekhar's Blog · Grown with care 🌿</p>
+            <p>&copy; 2026 Eftekhar's Blog · Made with care</p>
         </div>
     </footer>
 </body>
