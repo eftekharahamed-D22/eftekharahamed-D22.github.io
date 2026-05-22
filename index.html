@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light only">
     <title>Eftekhar's Blog — Stories worth growing into</title>
-    <meta name="description" content="A personal blog by Eftekhar Ahamed. Thoughts on life, technology, SEO, and everything in between.">
+    <meta name="description" content="A personal blog by Eftekhar Ahamed. Elegant thoughts on life, technology, SEO, and everything in between.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
 
     <header class="header">
         <div class="container">
-            <a href="index.html" class="logo">Eftekhar's Blog</a>
+            <a href="index.html" class="logo">Eftekhar's <span>Blog</span></a>
             <nav class="nav">
                 <a href="index.html" class="active">Home</a>
                 <a href="about.html">About</a>
@@ -29,23 +29,46 @@
 
     <main class="container">
         <section class="hero">
-            <span class="float-deco deco-1">✨</span>
-            <span class="float-deco deco-2">💫</span>
-            <span class="float-deco deco-3">🌟</span>
+            <div class="hero-ornament ornament-1">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="48" stroke="url(#g1)" stroke-width="1" stroke-dasharray="4 4"/>
+                    <circle cx="50" cy="50" r="20" stroke="url(#g1)" stroke-width="1"/>
+                    <defs>
+                        <linearGradient id="g1" x1="0" y1="0" x2="100" y2="100">
+                            <stop offset="0%" stop-color="#0ea5e9"/>
+                            <stop offset="100%" stop-color="#10b981"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="hero-ornament ornament-2">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="48" stroke="url(#g2)" stroke-width="1"/>
+                    <path d="M50 10 L50 90 M10 50 L90 50" stroke="url(#g2)" stroke-width="1" stroke-dasharray="3 3"/>
+                    <defs>
+                        <linearGradient id="g2" x1="0" y1="0" x2="100" y2="100">
+                            <stop offset="0%" stop-color="#10b981"/>
+                            <stop offset="100%" stop-color="#0ea5e9"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
 
             <span class="tagline">Welcome to my corner</span>
-            <h1>Stories worth<br><span class="gradient-text">growing into</span></h1>
-            <p>A little corner of the internet where ideas bloom — thoughts on life, tech, SEO, and the things that grow between.</p>
+            <h1>Stories worth<br><em>growing</em> into</h1>
+            <p>A little corner of the internet where ideas bloom — refined thoughts on life, technology, SEO, and the quiet moments between.</p>
             <div class="cta-group">
                 <a href="#posts" class="btn btn-primary">Start Reading →</a>
                 <a href="about.html" class="btn btn-secondary">About Me</a>
             </div>
         </section>
 
+        <div class="elegant-divider"><span>✦</span></div>
+
         <section id="posts">
             <div class="section-title">
                 <span class="label">Latest Stories</span>
-                <h2>Fresh thoughts, carefully cultivated</h2>
+                <h2>Fresh thoughts, <em>carefully</em> cultivated</h2>
                 <p>New ideas, written from the heart, served with care.</p>
             </div>
 
@@ -57,7 +80,7 @@
                     </div>
                     <h3><a href="posts/hello-world.html">Hello World — My First Blog Post</a></h3>
                     <p>Welcome to my blog! This is where I'll be sharing my thoughts, experiences, and the things I learn along the way.</p>
-                    <a href="posts/hello-world.html" class="read-more">Read more →</a>
+                    <a href="posts/hello-world.html" class="read-more">Continue reading →</a>
                 </article>
 
                 <article class="post-card">
@@ -67,7 +90,7 @@
                     </div>
                     <h3><a href="posts/getting-started-with-coding.html">Getting Started with Coding in 2026</a></h3>
                     <p>A beginner-friendly guide to starting your coding journey. What languages to learn, what tools to use, and how to stay motivated.</p>
-                    <a href="posts/getting-started-with-coding.html" class="read-more">Read more →</a>
+                    <a href="posts/getting-started-with-coding.html" class="read-more">Continue reading →</a>
                 </article>
 
                 <article class="post-card">
@@ -77,7 +100,7 @@
                     </div>
                     <h3><a href="posts/seo-basics.html">SEO Basics Everyone Should Know</a></h3>
                     <p>Search Engine Optimization doesn't have to be complicated. The fundamentals every website owner should understand.</p>
-                    <a href="posts/seo-basics.html" class="read-more">Read more →</a>
+                    <a href="posts/seo-basics.html" class="read-more">Continue reading →</a>
                 </article>
             </div>
         </section>
@@ -85,13 +108,14 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-logo">Eftekhar's Blog</div>
+            <div class="footer-logo">Eftekhar's <span>Blog</span></div>
+            <div class="footer-divider"><span>✦</span></div>
             <div class="footer-links">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
             </div>
-            <p>&copy; 2026 Eftekhar's Blog · Made with care</p>
+            <p>&copy; 2026 Eftekhar's Blog · Crafted with care</p>
         </div>
     </footer>
 </body>
