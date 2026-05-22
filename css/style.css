@@ -230,6 +230,33 @@ body::before {
     min-height: calc(100vh - 90px);
 }
 
+.hero-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0 140px;
+    min-height: calc(100vh - 90px);
+    text-align: center;
+}
+
+.hero-centered .hero-text {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.hero-centered .hero-text p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-centered .cta-group {
+    justify-content: center;
+}
+
+.hero-centered .hero-meta {
+    align-items: center;
+}
+
 .hero-text {
     max-width: 620px;
 }
