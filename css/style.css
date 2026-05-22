@@ -362,28 +362,6 @@ body::before {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Elegant ornament */
-.hero-ornament {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    opacity: 0.4;
-}
-
-.ornament-1 { top: 18%; left: 10%; }
-.ornament-2 { top: 22%; right: 12%; }
-
-.hero-ornament svg {
-    width: 100%;
-    height: 100%;
-    animation: rotate 25s linear infinite;
-}
-
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
 /* Divider */
 .elegant-divider {
     display: flex;
@@ -1191,10 +1169,6 @@ body::before {
 
     .orb {
         opacity: 0.2;
-    }
-
-    .hero-ornament {
-        display: none;
     }
 
     .post-card {
