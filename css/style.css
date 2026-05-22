@@ -387,8 +387,12 @@ body::before {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: var(--accent); /* fallback */
     font-style: italic;
     font-weight: 600;
+    display: inline-block;
+    line-height: 1.35;
+    padding: 0.08em 0.02em;
 }
 
 @keyframes fadeUp {
@@ -994,8 +998,12 @@ body::before {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: var(--accent); /* fallback for unsupported browsers */
     font-style: italic;
     font-weight: 600;
+    display: inline-block;
+    line-height: 1.35;
+    padding: 0.08em 0.02em;
 }
 
 /* ==========================================
