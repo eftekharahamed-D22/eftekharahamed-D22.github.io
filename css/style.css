@@ -1177,6 +1177,101 @@ body::before {
 }
 
 /* ==========================================
+   POST SHARE & COPYRIGHT
+   ========================================== */
+.post-share {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 50px 0 28px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+}
+
+.share-label {
+    color: var(--text-muted);
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 20px;
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 42px;
+    padding: 0 16px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    color: var(--text-soft);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: inherit;
+    letter-spacing: 0.2px;
+}
+
+.share-btn:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    color: var(--accent);
+    box-shadow: var(--shadow-sm);
+}
+
+.share-btn svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.share-btn.copied {
+    background: var(--green-50);
+    border-color: var(--green-300);
+    color: var(--green-700);
+}
+
+.post-copyright {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 0 50px;
+    text-align: center;
+}
+
+.post-copyright p {
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    line-height: 1.7;
+    font-style: italic;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .share-btn {
+        padding: 0 12px;
+        height: 38px;
+        font-size: 0.8rem;
+    }
+    .share-btn svg {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+/* ==========================================
    ABOUT PAGE
    ========================================== */
 .about-content {
